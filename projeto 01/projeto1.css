@@ -1,0 +1,80 @@
+
+:root{
+    --cor1: #071433;
+    --cor2:#1e3352;
+    --cor3:#40577a;
+    --cor4:#3a65a5;}
+    body {
+  font-family: 'Inter', sans-serif;
+}
+body {background-color:rgb(6, 6, 7);} 
+h1{color:var(--cor4);}
+h3, h4, p,ul{color: aliceblue;} 
+nav{justify-content: space-around;
+background-color:rgb(12, 12, 43);gap: 1rem;}
+nav>a:hover{color: aliceblue;}
+.nav:hover{ background-color: #1c2e49; text-decoration:none;} 
+.nav{color: aliceblue; padding-left: 15px; padding-right: 15px; border-radius: 4px;font-size: clamp(14px, 1.5vw, 18px); 
+  white-space: nowrap; }
+a{text-decoration: none;color:var(--cor4);} a:hover{color: rgb(153, 191, 222);text-decoration: underline;}
+.botoes {background-color:#154185c8;color:aliceblue; display: inline-block; border-radius:5px; padding: 8px; text-align: center; font-weight: bold;} .botoes:hover{background-color: #40577a;text-decoration: none;color: rgb(6, 6, 7);}
+.passos_como_funciona {font-weight: bold;}
+h2{color: rgb(153, 191, 222);}.h2_branco{color: aliceblue; margin-top: 10px;}
+
+.cards_problema{
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 10px;
+  background: rgb(6, 6, 7) ; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05),
+  inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border-radius: 12px; box-sizing: 20px; padding: 8.75px; background-color: rgb(7, 7, 20);}
+.como_funciona{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  gap: 10px; padding: 10px;
+  background: rgb(6,6,7);}
+ .passos{
+  display: flex;
+  flex-direction: column;
+  gap: 12px; padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05),
+  inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border-radius: 12px;  background: rgb(7, 7, 20);}
+  
+  .features{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  gap: 10px 20px;   background: rgb(6, 6, 7) ;}
+ .funcoes{
+  display: flex;
+  flex-direction: column;
+  gap: 12px; padding: 10px; max-width: 1000px; 
+  width: 100%; margin: auto; border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 1px rgba(255, 255, 255, 0.05),
+  inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border-radius: 12px; box-sizing: 15px; padding: 5px; background-color: rgb(7, 7, 20); }
+  .precos { display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background: rgb(7,7,20) ;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
+  .planos{
+  display: flex;
+  flex-direction: column;
+  gap: 10px; padding: 10px;margin-right: 20px;  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05),
+  inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border-radius: 12px; box-sizing: 20px; padding: 10px;}
+  .depoimentos{max-width: 90%;padding: 10px;}.p{padding:5px;}
+  .ul{box-sizing: 20px;}
+  section {margin: 10px; padding: 10px, 0px, 10px, 0px;}
